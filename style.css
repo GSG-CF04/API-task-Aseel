@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(141, 179, 212);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.lable {
+    padding: 1em;
+}
+
+.form {
+    display: flex;
+}
+
+#imageContainer{
+    width: fit-content;
+    height: fit-content;
+}
+#button{
+    font-weight: 1000;
+    margin: 1%;
+    border-radius: 25px;
+    padding: 1%;
+}
