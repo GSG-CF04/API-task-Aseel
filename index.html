@@ -10,11 +10,14 @@
 </head>
 
 <body>
-    <h1>
+    <h1 id="site-name">
         Cat Pic Site
     </h1>
-    <p>
+    <p class="main-content">
         This website will give you a random kitty pic in the dimentions you specify here! 😼
+    </p>
+    <p class="sub-content">
+        if you specify nothing , the outcome will be a surprise..
     </p>
     <form class="form">
         <div class="lable">
@@ -28,6 +31,7 @@
         <button type="button" id="button">give me kitty!</button>
     </form>
     <div id="imageContainer"></div>
+    <div id="errorMsg"></div>
     <script src="script.js"></script>
 </body>
 

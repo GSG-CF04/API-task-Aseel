@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     background-color: rgb(141, 179, 212);
 }
 body{
@@ -9,8 +10,17 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
-
+#site-name{
+    font-size: 3rem;
+    padding:2rem;
+}
+.main-content{
+    font-size: 1.5rem;
+    padding:1.5rem;
+}
+.sub-content{
+    padding:1.5rem;
+}
 .lable {
     padding: 1em;
 }
@@ -18,14 +28,16 @@ body{
 .form {
     display: flex;
 }
-
-#imageContainer{
-    width: fit-content;
-    height: fit-content;
+input{
+    background-color:rgb(141, 179, 212) ;
 }
+
 #button{
     font-weight: 1000;
     margin: 1%;
     border-radius: 25px;
     padding: 1%;
+}
+#errorMsg{
+    color:rgb(189, 0, 0);
 }
